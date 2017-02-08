@@ -1,0 +1,8 @@
+{
+  "ak": "",
+  "sk": "",
+  "baseUrl": "https://api.map.baidu.com",
+  "subUrls": {
+    "locationIp": "/location/ip"
+  }
+}
