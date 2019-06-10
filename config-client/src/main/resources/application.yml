@@ -5,3 +5,13 @@ server:
 spring:
   application:
     name: config-client
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info
+  endpoint:
+    health:
+      show-details: always
+  server:
+    port: 8888
