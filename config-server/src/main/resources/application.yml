@@ -11,3 +11,10 @@ spring:
         git:
           uri: https://github.com/lianpeixin/spring-cloud-config.git
           search-paths: config-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 2
