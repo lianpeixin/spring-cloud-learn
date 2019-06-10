@@ -1,0 +1,12 @@
+server:
+  port: 8085
+
+# 最佳实践：springcloud应用都要指定application.name
+spring:
+  application:
+    name: ribbon
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
