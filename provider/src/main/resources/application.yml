@@ -1,0 +1,9 @@
+# 服务与服务之间相互调用一般都是根据这个name 。
+spring:
+  application:
+    name: provider
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
