@@ -1,0 +1,7 @@
+server:
+  port: 8088
+
+# 最佳实践：springcloud应用都要指定application.name
+spring:
+  application:
+    name: config-client
